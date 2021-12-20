@@ -149,9 +149,9 @@ PlayState.init = function (data) {
         left: Phaser.KeyCode.LEFT,
         right: Phaser.KeyCode.RIGHT,
         up: Phaser.KeyCode.UP,
-        left: Phaser.KeyCode.65,
-        right: Phaser.KeyCode.68,
-        up: Phaser.KeyCode.87,
+        left: Phaser.KeyCode.a,
+        right: Phaser.KeyCode.d,
+        up: Phaser.KeyCode.w,
       
     });
 
