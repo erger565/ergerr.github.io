@@ -149,7 +149,7 @@ PlayState.init = function (data) {
         left: Phaser.KeyCode.LEFT,
         right: Phaser.KeyCode.RIGHT,
         up: Phaser.KeyCode.UP,
-        left: Phaser.KeyCode.A,
+        left: Phaser.event.code.KeyD,
         right: Phaser.KeyCode.S,
         up: Phaser.KeyCode.W,
       
