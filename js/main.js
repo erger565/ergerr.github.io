@@ -140,16 +140,15 @@ Spider.prototype.die = function () {
 /******************************************************
   PlayState Class
 *******************************************************/
-const LEVEL_COUNT = 3; // used to restart game when levels complete
+const LEVEL_COUNT = 2; // used to restart game when levels complete
 PlayState = {};
 
 PlayState.init = function (data) {
     this.game.renderer.renderSession.roundPixels = true; // round pixels for smoother movements
     this.keys = this.game.input.keyboard.addKeys({
-        left: Phaser.KeyCode.A,
-        right: Phaser.KeyCode.D,
-        up: Phaser.KeyCode.SPACE
-      
+        left: Phaser.KeyCode.LEFT,
+        right: Phaser.KeyCode.RIGHT,
+        up: Phaser.KeyCode.UP
     });
 
     // Subscribe key to signal (event)
