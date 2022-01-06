@@ -215,7 +215,7 @@ PlayState.preload = function () {
     this.game.load.audio('sfx:stomp', 'audio/stomp.wav')
     this.game.load.audio('sfx:key', 'audio/key.wav')
     this.game.load.audio('sfx:door', 'audio/door.wav')
-    this.game.load.audio('background', 'audio/background-music.wav')
+    this.game.load.audio('background', 'audio/Christmas Village.mp3')
 }
 /******************************************************
   PlayState Setup Methods
