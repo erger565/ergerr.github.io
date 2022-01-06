@@ -3,7 +3,7 @@
         {"image": "ground", "x": 0, "y": 546},
         {"image": "ground", "x": -50, "y": 420},
         {"image": "grass:2x1", "x": 420, "y": 336},
-        {"image": "grass:8x1", "x": 622, "y": 378},
+        {"image": "grass:8x1", "x": 572, "y": 378},
         {"image": "grass:4x1", "x": 126, "y": 252},
         {"image": "grass:6x1", "x": 412, "y": 168},
         {"image": "grass:2x1", "x": 798, "y": 84}
