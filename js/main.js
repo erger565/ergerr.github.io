@@ -4,7 +4,7 @@
 function Hero(game, x, y) {
     // call Phaser.Sprite constructor
     Phaser.Sprite.call(this, game, x, y, 'hero');
-    this.dying = false;
+    this.dying = false;F
     // Adjust the anchor, the point where we handle sprites/images.
     // Anchor: vector that accepts values in the 0 to 1 range.
     // Central point would be (0.5, 0.5).
@@ -215,7 +215,7 @@ PlayState.preload = function () {
     this.game.load.audio('sfx:stomp', 'audio/stomp.wav')
     this.game.load.audio('sfx:key', 'audio/key.wav')
     this.game.load.audio('sfx:door', 'audio/door.wav')
-    this.game.load.audio('background', 'audio/Christmas Village.mp3')
+    this.game.load.audio('background', 'audio/dubby-piano-mix_164bpm_D_minor (1).wav')
 }
 /******************************************************
   PlayState Setup Methods
