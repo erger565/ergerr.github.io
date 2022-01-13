@@ -4,7 +4,7 @@
 function Hero(game, x, y) {
     // call Phaser.Sprite constructor
     Phaser.Sprite.call(this, game, x, y, 'hero');
-    this.dying = false;F
+    this.dying = false;
     // Adjust the anchor, the point where we handle sprites/images.
     // Anchor: vector that accepts values in the 0 to 1 range.
     // Central point would be (0.5, 0.5).
