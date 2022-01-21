@@ -140,7 +140,7 @@ Spider.prototype.die = function () {
 /******************************************************
   PlayState Class
 *******************************************************/
-const LEVEL_COUNT = 3; // used to restart game when levels complete
+const LEVEL_COUNT = 4; // used to restart game when levels complete
 PlayState = {};
 
 PlayState.init = function (data) {
