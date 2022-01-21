@@ -2,7 +2,7 @@
     "platforms": [
         {"image": "ground", "x": 0, "y": 546},
         {"image": "grass:4x1", "x": 420, "y": 420}
-      {"image": "grass:4x1", "x": 620, "y": 10}
+        {"image": "grass:4x1", "x": 620, "y": 10}
     ],
     "decoration": [
         {"frame": 2, "x": 630, "y": 504},
@@ -22,5 +22,5 @@
     "spiders": [
     ],
     "door": {"x": 231, "y": 546},
-    "key": {"x": 620, "y": 10}
+    "key": {"x": 680, "y": 10}
 }
