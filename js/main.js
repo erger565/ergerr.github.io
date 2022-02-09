@@ -216,7 +216,7 @@ PlayState.preload = function () {
     this.game.load.audio('sfx:stomp', 'audio/stomp.wav')
     this.game.load.audio('sfx:key', 'audio/key.wav')
     this.game.load.audio('sfx:door', 'audio/door.wav')
-    this.game.load.audio('background', 'audio/dubby-piano-mix_164bpm_D_minor (1).wav')
+    this.game.load.audio('background', 'audio/campfire.mp3')
 }
 /******************************************************
   PlayState Setup Methods
